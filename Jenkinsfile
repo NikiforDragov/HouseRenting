@@ -8,16 +8,23 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
+        stage('Restore the project') {
+            steps {
+                bat 'dotnet restore'
+            }
+        }
+
+
+        stage('Build the project') {
             steps {
                 bat 'dotnet build'
             }
         }
 
-        stage('Test App') {
+        stage('Run tests') {
             steps {
                 bat 'dotnet test'
-            }   
+            }
         }
     }
     post {
