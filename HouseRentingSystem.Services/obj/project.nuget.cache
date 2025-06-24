@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "62Vn7LHE/XE=",
+  "dgSpecHash": "M7f/EodyzgI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\04-House-Renting-System-App\\HouseRentingSystem.Services\\HouseRentingSystem.Services.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\HouseRenting\\HouseRentingSystem.Services\\HouseRentingSystem.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
